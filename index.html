@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<title>عمار عم</title>
+<style>
+  body {
+    margin: 0;
+    font-family: Tahoma, sans-serif;
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .logo {
+    font-size: 80px;
+    font-weight: 900;
+    background: linear-gradient(45deg, #ff006e, #ffbe0b, #00f5d4, #3a86ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+  }
+  .subtitle {
+    font-size: 28px;
+    margin: 20px 0;
+    color: #ffbe0b;
+  }
+  .btn {
+    padding: 15px 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(135deg, #3a86ff, #8338ec);
+    border: none;
+    border-radius: 12px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  .btn:hover {
+    transform: scale(1.05);
+  }
+</style>
+</head>
+<body>
+  <div class="logo">عمار عم</div>
+  <div class="subtitle">🔥 أهلاً بك يا بطل 🔥</div>
+  <button class="btn" onclick="alert('مرحباً بك في ألعاب عمار عم!')">🎮 دخول الألعاب</button>
+  <button class="btn" onclick="alert('عمار عم - إصدار 1.0')">📜 معلومات</button>
+</body>
+</html>
